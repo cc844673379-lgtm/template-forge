@@ -1,0 +1,11 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 运行产物
+output/
+*.staging/
+*.error.md
+.DS_Store
+Thumbs.db

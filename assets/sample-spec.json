@@ -1,0 +1,748 @@
+{
+  "spec_version": "1.0",
+  "spec_id": "q1-report-clone-s1s2",
+  "source": {
+    "file": "C:/Users/Lenovo/Desktop/2026年财年Q1季度总结.docx",
+    "type": "docx",
+    "sha256": "1c50798a11be228f3eabe35e20307f5039f0026f75c615054e693b96780b4bb4",
+    "n_paragraphs": 42,
+    "n_tables": 1,
+    "size_bytes": 23594
+  },
+  "capability": {
+    "skeleton": true,
+    "typography": true,
+    "layout": true,
+    "pixel": false,
+    "note": "docx 源：样式定义层 + 主题字体可精确提取；clone 策略下 theme/styles 随底稿自动继承"
+  },
+  "strategy": "clone-and-fill",
+  "extract": {
+    "paragraph_styles": {
+      "Normal": {
+        "font": null,
+        "size": 12.0,
+        "bold": null,
+        "color": null
+      },
+      "Heading 1": {
+        "font": "宋体",
+        "size": 15.0,
+        "bold": true,
+        "color": null
+      },
+      "Heading 2": {
+        "font": "宋体",
+        "size": null,
+        "bold": true,
+        "color": "1A1C1E"
+      },
+      "Heading 3": {
+        "font": "宋体",
+        "size": 12.0,
+        "bold": true,
+        "color": null
+      },
+      "Normal (Web)": {
+        "font": null,
+        "size": 12.0,
+        "bold": null,
+        "color": null
+      }
+    },
+    "theme_fonts": {
+      "major_latin": "Calibri Light",
+      "minor_latin": "Calibri",
+      "major_ea": "",
+      "minor_ea": ""
+    },
+    "sample_paragraphs": [
+      {
+        "i": 0,
+        "style": "Heading 1",
+        "text": "2026年财年Q1季度总结",
+        "runs": [
+          {
+            "font": null,
+            "size": 16.0,
+            "bold": null,
+            "color": "1A1C1E"
+          },
+          {
+            "font": null,
+            "size": 16.0,
+            "bold": null,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 1,
+        "style": "Heading 2",
+        "text": "一、2026年度核心工作完成情况",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 2,
+        "style": "Normal",
+        "text": "在2026财年Q1季度中，我紧紧围绕公司的业务目标，在招投标管理、业务执行、销售",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 3,
+        "style": "Heading 3",
+        "text": "1.招投标管理与达成情况",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 4,
+        "style": "Normal",
+        "text": "Q1期间，我全流程参与并保障了多个重点项目的招投标工作，推动商务支持由“被动配合",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 5,
+        "style": "Normal",
+        "text": "平台与资质维护：积极协助鑫超越、锦瑟、创赢等关联及合作公司完成各大平台的注册与资",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 6,
+        "style": "Normal",
+        "text": "质量把控：严格执行“标书制作三重校验机制”（内容完整性、格式规范性、数据准确性）",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 7,
+        "style": "Normal",
+        "text": "重点中标项目支撑：效完成了各项目的商务资料对接及部分厂家资料的沟通争取。Q1期间",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 9,
+        "style": "Heading 2",
+        "text": "2.公司业务（含厂商过单）执行情况",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 10,
+        "style": "Heading 3",
+        "text": "在厂商业务执行与订单处理上，这一年我也在不断追求“又快又准”。针对核心厂商深信服",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 11,
+        "style": "Heading 3",
+        "text": "同时，对荷贝克、二航局等客户的零散笔记本销售等琐碎业务保持同等专注。二航局零散订",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 12,
+        "style": "Heading 2",
+        "text": "3.销售流程支持与商务文件标准化",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 13,
+        "style": "Heading 3",
+        "text": "我深知，规范化的流程和标准化的文件是提升团队整体效率的关键。",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 14,
+        "style": "Heading 3",
+        "text": "标准化建设与效率提升：从Q1季度开始，我便着手重构了标准化的《项目立项申请单》、",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 15,
+        "style": "Heading 3",
+        "text": "审批流程的优化：我梳理并持续优化了公司在钉钉上的供应链及采购审批流程，包括特殊折",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 16,
+        "style": "Heading 2",
+        "text": "4.财务协同与数据保障",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 18,
+        "style": "Heading 3",
+        "text": "费用数据的规范化：我负责了每月顺丰速运及第三方物流账单的分类汇总与移交。在账单出",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 19,
+        "style": "Heading 2",
+        "text": "5.客户资料管理与数据规范性",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 20,
+        "style": "Heading 3",
+        "text": "我始终坚信，准确、完整的数据是业务决策的基石。关于CRM系统的持续维护我严格按照",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          },
+          {
+            "font": null,
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": true,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 21,
+        "style": "Normal",
+        "text": "目前金蝶系统中的数据已完成了上一年度所有销售合同和采购合同的录入与关账当下推，即",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 23,
+        "style": "Heading 2",
+        "text": "对现有工作的复盘与精进举措",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 24,
+        "style": "Normal",
+        "text": "在过去的一年里，我不仅完成了既定的工作任务，更在实践中不断反思，寻找提升的空间。",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 25,
+        "style": "Heading 3",
+        "text": "1.提升订单处理时效",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 26,
+        "style": "Heading 3",
+        "text": "年初时，我注意到在业务旺季，金蝶系统的录入有时会稍显滞后，尤其是在月底，订单量激",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 27,
+        "style": "Heading 3",
+        "text": "2.商务文件标准化",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 28,
+        "style": "Normal",
+        "text": "早期，销售团队提交的商务文件（如报价单、合同等）在格式和内容上存在一定差异，这不",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 29,
+        "style": "Heading 3",
+        "text": "3.跨部门协作机制优化",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 30,
+        "style": "Heading 2",
+        "text": "在与三宁、三峡、中冶等外部单位进行商务对接时，偶尔会出现信息同步不及时的情况，导",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 31,
+        "style": "Heading 2",
+        "text": "2026年展望与个人成长计划",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 32,
+        "style": "Heading 3",
+        "text": "在过去的一年里，我深切地认识到自身还有一些需要提升的空间，主要体现在： （1）政",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 33,
+        "style": "Heading 3",
+        "text": "1.2026年优化目标与实施路径",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 34,
+        "style": "Heading 3",
+        "text": "1.1强化数据准确性与及时性",
+        "runs": [
+          {
+            "font": null,
+            "size": 14.0,
+            "bold": null,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "sans-serif",
+            "size": null,
+            "bold": null,
+            "color": "1A1C1E"
+          }
+        ]
+      },
+      {
+        "i": 35,
+        "style": "Heading 3",
+        "text": "我计划在每周五下班前，完成本周所有大客户及渠道商应收、应付款数据的初步核对，并生",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 36,
+        "style": "Heading 3",
+        "text": "1.2完善销售台账动态更新机制",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 37,
+        "style": "Heading 3",
+        "text": "我将进一步探索钉钉AI表格的自动化集成与低代码扩展功能，设定多维度的智能催办规则",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 38,
+        "style": "Heading 3",
+        "text": "1.3增强售前支持响应能力",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 39,
+        "style": "Normal",
+        "text": "22026年，我为自己量身定制了专项季度进阶学习表，重点啃下大数据湖仓架构、边缘",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": false,
+            "color": "1A1C1E"
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          },
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 40,
+        "style": "Heading 2",
+        "text": "总结",
+        "runs": [
+          {
+            "font": null,
+            "size": null,
+            "bold": null,
+            "color": null
+          }
+        ]
+      },
+      {
+        "i": 41,
+        "style": "Normal",
+        "text": "在2026年Q1季度中，我完成了从基础日常事务向高效、规范化管理的过渡。接下来的",
+        "runs": [
+          {
+            "font": "宋体",
+            "size": 12.0,
+            "bold": null,
+            "color": null
+          }
+        ]
+      }
+    ]
+  },
+  "render": {
+    "target_format": "docx",
+    "output_dir": "C:/Users/Lenovo/WorkBuddy/2026-10-29-11-08-18/tf-lab/output",
+    "overwrite_policy": "GATE-1：只写 tf-lab/output，绝不写源路径"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "template-forge",
+  "version": "1.0.0",
+  "description": "把参考文档的外观提取成可复用的 Template Spec（JSON），再用它渲染 docx/html/md 新文档——一次提取、多处渲染，数值全部来自 spec。",
+  "author": "WorkBuddy skill-designer 流水线",
+  "tags": ["template", "docx", "html", "markdown", "render", "style-extract"],
+  "language": "zh-CN",
+  "license": "MIT",
+  "requires": {
+    "python": ">=3.10",
+    "packages": ["python-docx", "lxml"]
+  },
+  "provenance": {
+    "blueprint": "blueprints/template-forge (IQS 100, BR-5 4.2)",
+    "verified": "2026-10-29 三次实跑（S1-S6 全 PASS）+ 施工端到端回归（docx/html/md 三链 PASS，4/8 错误码实证）"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/07/schema#",
+  "title": "template-forge error response",
+  "type": "object",
+  "required": ["error", "reason", "next_action", "blocked"],
+  "properties": {
+    "error": {
+      "type": "string",
+      "enum": ["E-SRC-NOTEXT", "E-SRC-WRITE", "E-DEPS-MISSING", "E-SPEC-SCHEMA",
+               "E-FIDELITY-EXCEEDED", "E-FONT-MISSING", "E-TEMPLATE-LEFTOVER", "E-OVERWRITE-DENIED"]
+    },
+    "reason": {"type": "string", "minLength": 10, "description": "原因是什么（给用户看的一句话）"},
+    "next_action": {"type": "string", "minLength": 4, "description": "agent/用户 下一步做什么"},
+    "alternative": {"type": ["string", "null"], "description": "替代渠道；安全底线类可为 null"},
+    "blocked": {"type": "boolean", "description": "true=流程阻断；false=降级可继续（须附声明）"}
+  },
+  "additionalProperties": true
+}
